@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Premium_Must_Be_Positive</fullName>
+    <active>true</active>
+    <errorConditionFormula>Premium_Amount__c &lt;=0</errorConditionFormula>
+    <errorMessage>Premium Amount must be greater than 0.</errorMessage>
+</ValidationRule>

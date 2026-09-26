@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Not_Over_Settlement</fullName>
+    <active>true</active>
+    <errorConditionFormula>Payment_Amount__c &gt; Settlement__r.Approved_Amount__c</errorConditionFormula>
+    <errorMessage>Payment Amount cannot exceed Settlement Approved Amount.</errorMessage>
+</ValidationRule>

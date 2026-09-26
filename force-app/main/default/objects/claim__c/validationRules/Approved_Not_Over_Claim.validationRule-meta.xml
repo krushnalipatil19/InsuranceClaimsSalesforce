@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approved_Not_Over_Claim</fullName>
+    <active>true</active>
+    <errorConditionFormula>Approved_Amount__c &gt; Claim_Amount__c</errorConditionFormula>
+    <errorMessage>Approved Amount cannot exceed Claim Amount.</errorMessage>
+</ValidationRule>
